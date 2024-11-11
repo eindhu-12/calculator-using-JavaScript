@@ -1,0 +1,23 @@
+body{
+    background:linear-gradient(to right, pink,skyblue,lightgreen,grey);
+}
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 100vh;
+}
+button{
+    width: 60px ;
+    height: 60px;
+    font-size: 16px;
+}
+p{
+    font-size: 20px;
+}
+button:hover{
+    background:linear-gradient(#C2FFC7,#CB9DF0);
+    color: rgb(26, 23, 23);
+}
